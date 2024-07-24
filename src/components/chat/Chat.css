@@ -121,6 +121,9 @@
             padding: 10px;
             border-radius: 10px;
             font-size: 16px;
+            &:disabled{
+                cursor: not-allowed;
+            }
         }
         .sendButton{
             background: rgba(0, 102, 255, 0.677);
@@ -129,6 +132,10 @@
             border-radius: 5px;
             border: none;
             cursor: pointer;
+            &:disabled{
+                background-color: #5182feb4;
+                cursor: not-allowed;
+            }
         }
         .emoji{
             position: relative;
